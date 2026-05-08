@@ -1,0 +1,20 @@
+{
+  "name": "bhartikuldeep/wayfinder",
+  "description": "Wayfinder v2 clean - secure PHP MVC route discovery platform with admin modules, APIs, graph diagnostics, and MySQL.",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "scripts": {
+    "serve": "php -S localhost:8000 -t public",
+    "migrate": "php scripts/migrate.php",
+    "seed": "php scripts/seed.php",
+    "lint": "php scripts/lint.php"
+  }
+}
