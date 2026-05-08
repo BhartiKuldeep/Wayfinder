@@ -1,0 +1,13 @@
+/vendor/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.sql.gz
+*.sqlite
+/cache/
+/storage/
+/tmp/
+.idea/
+.vscode/
